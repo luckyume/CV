@@ -38,20 +38,20 @@ about:
     png: images/skills/easyeda.png
     wide: true
   - name: FastAPI
-    png: images/skills/fastapi.png
+    svg: fastapi.svg
   - name: Python
     png: images/skills/python.png
     wide: true
   - name: ESP32
-    png: images/skills/espressif.png
+    svg: espressif.svg
   - name: Hardware Integration
-    svg: c.svg
+    svg: hardware-integration.svg
   - name: Electrical Wiring & Soldering
-    svg: c.svg
+    svg: electrical-wiring.svg
   - name: Drone Systems
-    svg: c.svg
+    svg: drone-systems.svg
   - name: REST API Development
-    png: images/skills/fastapi.png
+    svg: rest-api.svg
   paragraphs:
   - Currently working as a Product Engineering professional at PT. Valortek Ratanika Utama, specializing in product testing, drone systems, hardware integration, electrical troubleshooting, and RESTful API development using Python and FastAPI. Experienced in integrating ESP32 microcontrollers, communication interfaces, and hardware control systems, as well as conducting functional testing, preparing technical documentation, and providing user training.
   - Previous experience in business consulting, photography, graphic design, and social media management has strengthened my communication, analytical, and problem-solving skills. Actively involved in organizational activities, with leadership and administrative experience at Pemuda Thridharma Indonesia. Passionate about continuous learning, technological innovation, and combining technical and creative expertise to develop reliable and effective solutions.
