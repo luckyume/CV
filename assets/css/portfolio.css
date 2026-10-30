@@ -242,6 +242,13 @@ p { color: inherit; }
 .timeline-dates::after { position: absolute; top: 22px; left: 6px; width: 1px; min-height: 42px; height: calc(100% + 18px); background: #c5d3dd; content: ""; }
 .timeline-company { margin: -4px 0 6px; color: var(--navy); font-family: var(--display-font); font-size: clamp(28px, 3vw, 39px); line-height: 1.15; font-weight: 400; letter-spacing: -0.015em; }
 .timeline-position { margin: 0 0 14px; color: var(--navy); font-size: 17px; line-height: 1.5; }
+.role-timeline { margin: 24px 0 0; padding: 0; list-style: none; }
+.role-item { position: relative; margin-left: 6px; padding: 0 0 34px 26px; border-left: 1px solid var(--line); }
+.role-item:last-child { padding-bottom: 0; border-left-color: transparent; }
+.role-item::before { position: absolute; top: 7px; left: -6px; width: 11px; height: 11px; border-radius: 50%; background: #c5d3dd; content: ""; }
+.role-item--current::before { background: var(--yellow); }
+.role-title { margin: 0 0 4px; color: var(--navy); font-family: var(--body-font); font-size: 21px; font-weight: 700; line-height: 1.35; }
+.role-dates { margin: 0 0 16px; color: var(--muted); font-size: 14px; line-height: 1.5; }
 .timeline-location, .timeline-grade { margin: 4px 0; color: var(--muted); font-size: 15px; }
 .timeline-description, .timeline-more { max-width: 900px; color: #38576c; font-size: 15px; line-height: 1.75; }
 .timeline-description ul, .timeline-more ul { margin: 12px 0 0; padding: 0 0 0 19px; list-style: disc; }
@@ -453,6 +460,10 @@ p { color: inherit; }
     .timeline-dates::after { display: none; }
     .timeline-company { margin-top: 0; font-size: 29px; line-height: 1.12; }
     .timeline-position { font-size: 15px; margin-bottom: 12px; }
+    .role-timeline { margin-top: 22px; }
+    .role-item { padding-left: 20px; }
+    .role-title { font-size: 18px; }
+    .role-dates { font-size: 13px; }
     .timeline-description, .timeline-more { font-size: 14px; line-height: 1.7; }
     .timeline-more summary { font-size: 13px; }
     .timeline-location, .timeline-grade { font-size: 14px; }

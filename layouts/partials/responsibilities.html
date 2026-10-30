@@ -1,0 +1,11 @@
+{{- if .preview -}}
+<div class="timeline-description"><ul>{{ range .preview }}<li>{{ . }}</li>{{ end }}</ul></div>
+<details class="timeline-more">
+    <summary{{ with .title }} aria-label="View all {{ . }} responsibilities"{{ end }}>View all responsibilities</summary>
+    <ul>{{ range split .description "\n" }}{{ with trim . " \t\r" }}<li>{{ . }}</li>{{ end }}{{ end }}</ul>
+</details>
+{{- else -}}
+{{ with .description }}
+<div class="timeline-description"><ul>{{ range split . "\n" }}{{ with trim . " \t\r" }}<li>{{ . }}</li>{{ end }}{{ end }}</ul></div>
+{{ end }}
+{{- end -}}

@@ -57,38 +57,45 @@ about:
   - Previous experience in business consulting, photography, graphic design, and social media management has strengthened my communication, analytical, and problem-solving skills. Actively involved in organizational activities, with leadership and administrative experience at Indonesian Thridharma Youth. Passionate about continuous learning, technological innovation, and combining technical and creative expertise to develop reliable and effective solutions.
 experience:
 - company: PT. Valortek Ratanika Utama
-  title: Quality Assurance, Product Engineering
-  description: |-
-    Manage accounts for testing and project work
-    Create user manuals
-    Record discussions during meetings
-    Contribute to meetings by analyzing issues and proposing practical solutions
-    Verify that company products meet user requirements
-    Test company products, applications, and websites, then report results to relevant stakeholders
-    Demonstrate products to users
-    Train users to use the products
-    Pilot and assemble drones
-    Performed electrical wiring, soldering, and connector assembly for hardware integration and product development.
-    Integrated electrical components, including ESP32 microcontrollers, relays, Solid State Relays (SSRs), and cooling systems.
-    Conducted electrical troubleshooting, hardware diagnostics, and functional testing to identify and resolve system issues.
-    Developed and modified electrical connections for drone systems, antenna trackers, and communication devices.
-    Integrated communication interfaces, including Ethernet (LAN), USB, and serial connections.
-    Performed power system inspections and connectivity verification to ensure reliable hardware operation.
-    Supported hardware prototyping, product modification, system integration, and functional validation.
-    Collaborated with mechanical and software engineering teams to improve product compatibility, reliability, and performance.
-    Assisted in slip ring wiring integration to support power and communication connections in rotating systems.
-    Prepared technical documentation covering wiring configurations, hardware modifications, and test results.
-    Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
-    Integrated API endpoints with ESP32 controllers and hardware components to enable device status monitoring and remote control.
-    Performed API testing and troubleshooting to ensure reliable communication between hardware and software systems.
-    Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
   startDate: May 2025
   endDate: Present
-  preview:
-  - Test company products, applications, and websites, then report results to relevant stakeholders
-  - Pilot and assemble drones
-  - Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
-  - Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
+  roles:
+  - title: Product Engineering
+    startDate: Mar 2026
+    endDate: Present
+    description: |-
+      Performed electrical wiring, soldering, and connector assembly for hardware integration and product development.
+      Integrated electrical components, including ESP32 microcontrollers, relays, Solid State Relays (SSRs), and cooling systems.
+      Conducted electrical troubleshooting, hardware diagnostics, and functional testing to identify and resolve system issues.
+      Developed and modified electrical connections for drone systems, antenna trackers, and communication devices.
+      Integrated communication interfaces, including Ethernet (LAN), USB, and serial connections.
+      Performed power system inspections and connectivity verification to ensure reliable hardware operation.
+      Supported hardware prototyping, product modification, system integration, and functional validation.
+      Collaborated with mechanical and software engineering teams to improve product compatibility, reliability, and performance.
+      Assisted in slip ring wiring integration to support power and communication connections in rotating systems.
+      Prepared technical documentation covering wiring configurations, hardware modifications, and test results.
+      Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
+      Integrated API endpoints with ESP32 controllers and hardware components to enable device status monitoring and remote control.
+      Performed API testing and troubleshooting to ensure reliable communication between hardware and software systems.
+      Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
+    preview:
+    - Performed electrical wiring, soldering, and connector assembly for hardware integration and product development.
+    - Integrated electrical components, including ESP32 microcontrollers, relays, Solid State Relays (SSRs), and cooling systems.
+    - Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
+    - Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
+  - title: Quality Assurance
+    startDate: May 2025
+    endDate: Mar 2026
+    description: |-
+      Manage accounts for testing and project work
+      Create user manuals
+      Record discussions during meetings
+      Contribute to meetings by analyzing issues and proposing practical solutions
+      Verify that company products meet user requirements
+      Test company products, applications, and websites, then report results to relevant stakeholders
+      Demonstrate products to users
+      Train users to use the products
+      Pilot and assemble drones
 - company: PT. Equityworld Futures
   title: Business Consultant
   description: |-

@@ -6,7 +6,7 @@ Personal portfolio for Jonathan Lucky Yap, Product Engineering professional.
 
 ## Content
 
-Edit `data/portfolio.yml` to update the profile, education, experience, certifications, organizations, skills, and contact links. The current role is Product Engineering. Work Experience lists Quality Assurance, Product Engineering to reflect the move from the earlier Quality Assurance division to the current Product Engineering division. The 20 skill icons are stored in `assets/icons/` and `static/images/skills/`. Certificate previews in `static/images/certifications/` are captured from the original credential pages, and each entry links to its issuer's verification page.
+Edit `data/portfolio.yml` to update the profile, education, experience, certifications, organizations, skills, and contact links. The current role is Product Engineering. Work Experience groups two positions under PT. Valortek Ratanika Utama: Product Engineering (Mar 2026–Present) and Quality Assurance (May 2025–Mar 2026), with responsibilities assigned to each position. The 20 skill icons are stored in `assets/icons/` and `static/images/skills/`. Certificate previews in `static/images/certifications/` are captured from the original credential pages, and each entry links to its issuer's verification page.
 
 ## Run locally
 

@@ -5,20 +5,22 @@
             <div class="timeline-dates">{{ .startDate }} &ndash; {{ .endDate }}</div>
             <div class="timeline-body">
                 <h3 class="timeline-company">{{ .company | default .name }}</h3>
+                {{ if .roles }}
+                <ol class="role-timeline" aria-label="Positions at {{ .company }}">
+                    {{ range .roles }}
+                    <li class="role-item{{ if eq .endDate "Present" }} role-item--current{{ end }}">
+                        <h4 class="role-title">{{ .title }}</h4>
+                        <p class="role-dates">{{ .startDate }} &ndash; {{ .endDate }}</p>
+                        {{ partial "responsibilities.html" . }}
+                    </li>
+                    {{ end }}
+                </ol>
+                {{ else }}
                 <p class="timeline-position">{{ .title }}</p>
                 {{ with .branch }}<p class="timeline-location">{{ . }}</p>{{ end }}
                 {{ with .location }}<p class="timeline-location">{{ . }}</p>{{ end }}
                 {{ with .grade }}<p class="timeline-grade">{{ . }}</p>{{ end }}
-                {{ if .preview }}
-                <div class="timeline-description"><ul>{{ range .preview }}<li>{{ . }}</li>{{ end }}</ul></div>
-                <details class="timeline-more">
-                    <summary>View all responsibilities</summary>
-                    <ul>{{ range split .description "\n" }}{{ with trim . " \t\r" }}<li>{{ . }}</li>{{ end }}{{ end }}</ul>
-                </details>
-                {{ else }}
-                {{ with .description }}
-                <div class="timeline-description"><ul>{{ range split . "\n" }}{{ with trim . " \t\r" }}<li>{{ . }}</li>{{ end }}{{ end }}</ul></div>
-                {{ end }}
+                {{ partial "responsibilities.html" . }}
                 {{ end }}
             </div>
         </li>
