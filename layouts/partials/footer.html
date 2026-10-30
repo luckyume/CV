@@ -1,0 +1,16 @@
+<footer id="contact" class="contact-section grid-surface" aria-labelledby="contact-heading">
+    <div class="contact-inner">
+        <h2 id="contact-heading" class="section-title">Contact</h2>
+        <div class="contact-actions">
+            {{ range .Site.Data.portfolio.contact }}
+            <div class="contact-action">
+                <a class="contact-link" href="{{ .link | safeURL }}" {{ if hasPrefix .link "http" }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                    <span class="contact-icon contact-icon--{{ .icon }}" aria-hidden="true">{{ partial "ui-icon.html" .icon }}</span>
+                    <span class="contact-link-copy"><span class="contact-label">{{ .label }}</span><span class="contact-value">{{ .value }}</span></span>
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="footer-meta"><span>Jonathan Lucky Yap</span><span>{{ .Site.Data.portfolio.location }}</span></div>
+</footer>

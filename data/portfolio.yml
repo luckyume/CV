@@ -1,0 +1,170 @@
+firstname: Jonathan Lucky
+lastname: Yap
+subheader: Product Engineering
+resume: ''
+social:
+- link: https://www.linkedin.com/in/jonathan-lucky-yap-40147421a/
+  svg: linkedin.svg
+- link: https://github.com/luckyume
+  svg: github.svg
+about:
+  description: A Computer Science graduate from Bina Nusantara University with a GPA of 3.62/4.00, currently working in Product Engineering with experience in Software Development, Electrical Systems, and Creative industries.
+  skills:
+  - name: Java
+    svg: java.svg
+  - name: Spring
+    svg: spring.svg
+  - name: MySQL
+    svg: mysql.svg
+  - name: PostgreSQL
+    svg: postgresql.svg
+  - name: MongoDB
+    svg: mongodb.svg
+  - name: Hugo
+    svg: hugo.svg
+  - name: Tailwind CSS
+    svg: tailwindcss.svg
+  - name: HTML
+    svg: html.svg
+  - name: CSS
+    svg: css.svg
+  - name: JavaScript
+    svg: javascript.svg
+  - name: Git
+    svg: git.svg
+  - name: Postman
+    svg: postman.svg
+  - name: EasyEDA
+    png: images/skills/easyeda.png
+    wide: true
+  - name: FastAPI
+    png: images/skills/fastapi.png
+  - name: Python
+    png: images/skills/python.png
+    wide: true
+  - name: ESP32
+    png: images/skills/espressif.png
+  - name: Hardware Integration
+    svg: c.svg
+  - name: Electrical Wiring & Soldering
+    svg: c.svg
+  - name: Drone Systems
+    svg: c.svg
+  - name: REST API Development
+    png: images/skills/fastapi.png
+  paragraphs:
+  - Currently working as a Product Engineering professional at PT. Valortek Ratanika Utama, specializing in product testing, drone systems, hardware integration, electrical troubleshooting, and RESTful API development using Python and FastAPI. Experienced in integrating ESP32 microcontrollers, communication interfaces, and hardware control systems, as well as conducting functional testing, preparing technical documentation, and providing user training.
+  - Previous experience in business consulting, photography, graphic design, and social media management has strengthened my communication, analytical, and problem-solving skills. Actively involved in organizational activities, with leadership and administrative experience at Pemuda Thridharma Indonesia. Passionate about continuous learning, technological innovation, and combining technical and creative expertise to develop reliable and effective solutions.
+experience:
+- company: PT. Valortek Ratanika Utama
+  title: Quality Assurance & Product Engineering
+  description: |-
+    Manage accounts for testing and project work
+    Create user manuals
+    Record discussions during meetings
+    Contribute to meetings by analyzing issues and proposing practical solutions
+    Verify that company products meet user requirements
+    Test company products, applications, and websites, then report results to relevant stakeholders
+    Demonstrate products to users
+    Train users to use the products
+    Pilot and assemble drones
+    Performed electrical wiring, soldering, and connector assembly for hardware integration and product development.
+    Integrated electrical components, including ESP32 microcontrollers, relays, Solid State Relays (SSRs), and cooling systems.
+    Conducted electrical troubleshooting, hardware diagnostics, and functional testing to identify and resolve system issues.
+    Developed and modified electrical connections for drone systems, antenna trackers, and communication devices.
+    Integrated communication interfaces, including Ethernet (LAN), USB, and serial connections.
+    Performed power system inspections and connectivity verification to ensure reliable hardware operation.
+    Supported hardware prototyping, product modification, system integration, and functional validation.
+    Collaborated with mechanical and software engineering teams to improve product compatibility, reliability, and performance.
+    Assisted in slip ring wiring integration to support power and communication connections in rotating systems.
+    Prepared technical documentation covering wiring configurations, hardware modifications, and test results.
+    Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
+    Integrated API endpoints with ESP32 controllers and hardware components to enable device status monitoring and remote control.
+    Performed API testing and troubleshooting to ensure reliable communication between hardware and software systems.
+    Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
+  startDate: May 2025
+  endDate: Present
+  preview:
+  - Test company products, applications, and websites, then report results to relevant stakeholders
+  - Pilot and assemble drones
+  - Developed and maintained RESTful APIs using Python and FastAPI to support hardware control, system monitoring, and communication between devices and applications.
+  - Designed and developed internal applications to streamline business processes, improve operational efficiency, and support company workflows.
+- company: PT. Equityworld Futures
+  title: Business Consultant
+  description: |-
+    Contacted clients
+    Presented to prospective clients
+    Encouraged prospective clients to become business partners
+    Helped clients grow their businesses
+  startDate: Jan 2025
+  endDate: Mar 2025
+- company: PT. Megacom Alfapratama
+  title: Intern Social Media Specialist
+  description: |-
+    Took photographs and videos for social media content
+    Designed graphics for social media posts
+    Created social media content to engage potential customers
+  startDate: Jan 2019
+  endDate: Mar 2019
+organizations:
+- name: Pemuda Thridharma Indonesia
+  title: Youth Administrator (since 2025)
+  startDate: Jun 2015
+  endDate: Present
+  description: |-
+    Served as secretary of the Prajapati branch temple until June 2018
+    Participated in this religious organization
+    Organized the branch manager's schedule
+    Handled incoming and outgoing mail, including invitation and assignment letters
+    Member of the Prajapati branch temple from 2021 to 2025
+    Planned events and supported organizational activities
+    Serving as youth administrator since 2025
+  branch: Prajapati branch
+actions:
+- title: GitHub Profile
+  subtitle: More projects
+  button: luckyume
+  link: https://github.com/luckyume
+- title: Email Me
+  subtitle: Contact me
+  button: jonathanluckyyap@gmail.com
+  link: mailto:jonathanluckyyap@gmail.com
+nameLines:
+- Jonathan
+- Lucky Yap
+location: Jakarta Timur, Indonesia
+heroSummary: Computer Science graduate working across product testing, drone systems, hardware integration, and RESTful API development with Python and FastAPI.
+education:
+- name: Universitas Bina Nusantara
+  title: Bachelor Degree of Computer Science
+  location: West Jakarta, Indonesia
+  startDate: Sep 2020
+  endDate: Sep 2026
+  grade: 'GPA: 3.62 / 4.00'
+- name: Cahaya Sakti Vocational High School
+  title: Multimedia
+  location: East Jakarta
+  startDate: Jun 2017
+  endDate: May 2020
+  grade: 'Average: 80.93 / 100'
+contact:
+- label: Email
+  value: jonathanluckyyap@gmail.com
+  link: mailto:jonathanluckyyap@gmail.com
+  icon: mail
+- label: GitHub
+  value: luckyume
+  link: https://github.com/luckyume
+  icon: github
+- label: LinkedIn
+  value: Jonathan Lucky Yap
+  link: https://www.linkedin.com/in/jonathan-lucky-yap-40147421a/
+  icon: linkedin
+- label: WhatsApp
+  value: 082128284562
+  link: https://wa.me/6282128284562
+  icon: whatsapp
+- label: Instagram
+  value: luckyume_
+  link: https://www.instagram.com/luckyume_/
+  icon: instagram

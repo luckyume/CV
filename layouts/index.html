@@ -1,0 +1,61 @@
+{{- define "main" -}}
+{{- $p := .Site.Data.portfolio -}}
+<main id="main-content" class="portfolio-main">
+    <section class="hero-section grid-surface" aria-labelledby="hero-name">
+        <div class="hero-inner">
+            <div class="hero-copy">
+                <h1 id="hero-name" class="hero-title">{{ range $p.nameLines }}<span>{{ . }}</span>{{ end }}</h1>
+                <p class="hero-role">{{ $p.subheader }}</p>
+                <p class="hero-summary">{{ $p.heroSummary }}</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#contact">Contact Me</a>
+                    <a class="text-link" href="https://github.com/luckyume" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-media">
+                <div class="portrait-arch" aria-hidden="true"></div>
+                <img class="hero-portrait" src="{{ "images/jonathan-yap-cutout.png" | relURL }}" alt="Jonathan Lucky Yap in a black suit and glasses" width="1121" height="1404" fetchpriority="high" />
+            </div>
+        </div>
+        <div class="decor decor-dots hero-dots-top" aria-hidden="true"></div>
+        <div class="decor decor-dots hero-dots-bottom" aria-hidden="true"></div>
+        <div class="decor decor-star star-orange" aria-hidden="true"></div>
+        <div class="decor decor-star star-green" aria-hidden="true"></div>
+        <div class="decor decor-dot dot-yellow" aria-hidden="true"></div>
+    </section>
+    <section id="about" class="content-section about-section grid-surface" aria-labelledby="about-heading">
+        <div class="section-inner about-grid">
+            <h2 id="about-heading" class="section-title">About Me</h2>
+            <div class="about-copy">
+                <p>{{ $p.about.description }}</p>
+                {{ range $p.about.paragraphs }}<p>{{ . }}</p>{{ end }}
+                <p class="about-location">{{ $p.location }}</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="content-section skills-section grid-surface" aria-labelledby="skills-heading">
+        <div class="section-inner">
+            <div class="section-heading"><h2 id="skills-heading" class="section-title">Skills</h2></div>
+            {{ partial "skills" (dict "skills" $p.about.skills) }}
+        </div>
+    </section>
+    <section id="experience" class="content-section experience-section grid-surface" aria-labelledby="experience-heading">
+        <div class="section-inner">
+            <div class="section-heading"><h2 id="experience-heading" class="section-title">Work Experience</h2></div>
+            {{ partial "timeline.html" (dict "data" $p.experience) }}
+        </div>
+    </section>
+    <section id="education" class="content-section education-section grid-surface" aria-labelledby="education-heading">
+        <div class="section-inner">
+            <div class="section-heading"><h2 id="education-heading" class="section-title">Education</h2></div>
+            {{ partial "timeline.html" (dict "data" $p.education) }}
+        </div>
+    </section>
+    <section id="organizations" class="content-section organization-section grid-surface" aria-labelledby="organizations-heading">
+        <div class="section-inner">
+            <div class="section-heading"><h2 id="organizations-heading" class="section-title">Organizations</h2></div>
+            {{ partial "timeline.html" (dict "data" $p.organizations) }}
+        </div>
+    </section>
+</main>
+{{- end -}}

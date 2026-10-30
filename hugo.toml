@@ -1,0 +1,18 @@
+baseURL = "https://luckyume.github.io/CV/"
+languageCode = "en-us"
+title = "Jonathan Lucky Yap - Portfolio"
+name = "Simple Dev Portfolio"
+license = "MIT"
+licenselink = "https://github.com/xinweilau/simple-dev-portfolio/blob/main/LICENSE"
+description = "Jonathan Lucky Yap — Product Engineering professional working across product testing, hardware integration, drone systems, and API development."
+homepage = "https://luckyume.github.io/CV/"
+tags = ["Hugo", "TailwindCSS", "developer", "theme"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Jonathan Lucky Yap"
+  homepage = "https://github.com/luckyume"
+
+[params]
+  description = "Jonathan Lucky Yap — Product Engineering professional working across product testing, hardware integration, drone systems, and API development."

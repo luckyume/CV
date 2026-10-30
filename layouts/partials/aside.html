@@ -1,0 +1,13 @@
+<aside class="social-rail">
+    <ul>
+        {{- range .Site.Data.portfolio.social }}
+        <li>
+            <a href="{{ .link }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ .svg | replaceRE `\.svg$` `` }} profile">
+                <div aria-hidden="true">{{ partial "svg.html" .svg }}</div>
+            </a>
+        </li>
+
+        {{- end }}
+    </ul>
+    <div class="absolute border-secondary border-r w-3/6 h-full opacity-50"></div>
+</aside>

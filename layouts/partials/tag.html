@@ -1,0 +1,10 @@
+<div class="skill-tag">
+    <span class="skill-icon{{ if .wide }} skill-icon--wide{{ end }}" aria-hidden="true">
+        {{- if .png -}}
+        <img src="{{ .png | relURL }}" alt="" loading="lazy" />
+        {{- else -}}
+        {{ partial "svg.html" .svg }}
+        {{- end -}}
+    </span>
+    <span>{{ .name }}</span>
+</div>

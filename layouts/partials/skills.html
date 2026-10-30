@@ -1,0 +1,3 @@
+<div class="skills-grid">
+    {{- range .skills -}} {{- partial "tag.html" (dict "name" .name "svg" .svg "png" .png "wide" .wide) -}} {{- end -}}
+</div>
