@@ -6,7 +6,7 @@ Personal portfolio for Jonathan Lucky Yap, Product Engineering professional.
 
 ## Content
 
-Edit `data/portfolio.yml` to update the profile, education, experience, organizations, skills, and contact links. The current role is Product Engineering; the combined Quality Assurance & Product Engineering role is listed in Work Experience. All 20 skill logos use the original assets in `assets/icons/` and `static/images/skills/`.
+Edit `data/portfolio.yml` to update the profile, education, experience, certifications, organizations, skills, and contact links. The current role is Product Engineering; the combined Quality Assurance & Product Engineering role is listed in Work Experience. All 20 skill logos use the original assets in `assets/icons/` and `static/images/skills/`. Certificate previews in `static/images/certifications/` are captured from the original credential pages, and each entry links to its issuer's verification page.
 
 ## Run locally
 

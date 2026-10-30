@@ -51,6 +51,12 @@
             {{ partial "timeline.html" (dict "data" $p.education) }}
         </div>
     </section>
+    <section id="certifications" class="content-section certifications-section grid-surface" aria-labelledby="certifications-heading">
+        <div class="section-inner">
+            <div class="section-heading"><h2 id="certifications-heading" class="section-title">Certifications</h2></div>
+            {{ partial "certifications.html" (dict "certificates" $p.certifications "name" (printf "%s %s" $p.firstname $p.lastname)) }}
+        </div>
+    </section>
     <section id="organizations" class="content-section organization-section grid-surface" aria-labelledby="organizations-heading">
         <div class="section-inner">
             <div class="section-heading"><h2 id="organizations-heading" class="section-title">Organizations</h2></div>

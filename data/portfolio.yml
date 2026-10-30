@@ -147,6 +147,56 @@ education:
   startDate: Jun 2017
   endDate: May 2020
   grade: 'Average: 80.93 / 100'
+certifications:
+- title: Machine Learning with Python
+  issuer: freeCodeCamp
+  issued: '2026-10-29'
+  url: https://freecodecamp.org/certification/luckyume/machine-learning-with-python-v7
+  image: images/certifications/machine-learning-with-python-v7.jpg
+  width: 641
+  height: 659
+- title: Legacy Back-End
+  issuer: freeCodeCamp
+  issued: '2026-10-28'
+  url: https://freecodecamp.org/certification/luckyume/legacy-back-end
+  image: images/certifications/legacy-back-end.jpg
+  width: 641
+  height: 659
+- title: Back-End Development and APIs V8
+  issuer: freeCodeCamp
+  issued: '2026-10-19'
+  url: https://freecodecamp.org/certification/luckyume/back-end-development-and-apis
+  image: images/certifications/back-end-development-and-apis.jpg
+  width: 641
+  height: 659
+- title: Strategic Management (Level, Form and Implementation)
+  issuer: GreatNusa / BINUS University
+  issued: '2026-02-02'
+  url: https://www.greatnusa.com/user/jonathanluckyyap/certificate/strategic-management-level-form-and-implementation
+  image: images/certifications/strategic-management.jpg
+  width: 841
+  height: 595
+- title: Income Tax in Indonesia
+  issuer: GreatNusa / BINUS University
+  issued: '2026-02-02'
+  url: https://www.greatnusa.com/user/jonathanluckyyap/certificate/income-tax-in-indonesia
+  image: images/certifications/income-tax-in-indonesia.jpg
+  width: 841
+  height: 595
+- title: Legacy Information Security and Quality Assurance
+  issuer: freeCodeCamp
+  issued: '2026-01-08'
+  url: https://freecodecamp.org/certification/luckyume/information-security-and-quality-assurance
+  image: images/certifications/information-security-and-quality-assurance.jpg
+  width: 641
+  height: 659
+- title: Quality Assurance
+  issuer: freeCodeCamp
+  issued: '2026-01-08'
+  url: https://freecodecamp.org/certification/luckyume/quality-assurance-v7
+  image: images/certifications/quality-assurance-v7.jpg
+  width: 641
+  height: 659
 contact:
 - label: Email
   value: jonathanluckyyap@gmail.com

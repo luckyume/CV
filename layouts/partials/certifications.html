@@ -1,0 +1,20 @@
+{{- $name := .name -}}
+<ol class="certifications-grid">
+    {{ range $index, $certificate := .certificates }}
+    <li>
+        <article class="certificate-card">
+            <a class="certificate-link" href="{{ .url }}" target="_blank" rel="noopener noreferrer" aria-labelledby="certificate-title-{{ $index }}">
+                <div class="certificate-preview">
+                    <img src="{{ .image | relURL }}" alt="{{ .title }} certificate awarded to {{ $name }}" width="{{ .width }}" height="{{ .height }}" loading="lazy" decoding="async" />
+                </div>
+                <div class="certificate-body">
+                    <p class="certificate-issuer">{{ .issuer }}</p>
+                    <h3 id="certificate-title-{{ $index }}" class="certificate-title">{{ .title }}</h3>
+                    <time class="certificate-date" datetime="{{ .issued }}">{{ dateFormat "Jan 2, 2006" .issued }}</time>
+                    <span class="certificate-cta">View credential <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" /></svg></span>
+                </div>
+            </a>
+        </article>
+    </li>
+    {{ end }}
+</ol>
