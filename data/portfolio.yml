@@ -54,7 +54,7 @@ about:
     svg: rest-api.svg
   paragraphs:
   - Currently working as a Product Engineering professional at PT. Valortek Ratanika Utama, specializing in product testing, drone systems, hardware integration, electrical troubleshooting, and RESTful API development using Python and FastAPI. Experienced in integrating ESP32 microcontrollers, communication interfaces, and hardware control systems, as well as conducting functional testing, preparing technical documentation, and providing user training.
-  - Previous experience in business consulting, photography, graphic design, and social media management has strengthened my communication, analytical, and problem-solving skills. Actively involved in organizational activities, with leadership and administrative experience at Pemuda Thridharma Indonesia. Passionate about continuous learning, technological innovation, and combining technical and creative expertise to develop reliable and effective solutions.
+  - Previous experience in business consulting, photography, graphic design, and social media management has strengthened my communication, analytical, and problem-solving skills. Actively involved in organizational activities, with leadership and administrative experience at Indonesian Thridharma Youth. Passionate about continuous learning, technological innovation, and combining technical and creative expertise to develop reliable and effective solutions.
 experience:
 - company: PT. Valortek Ratanika Utama
   title: Quality Assurance & Product Engineering
@@ -99,7 +99,7 @@ experience:
   startDate: Jan 2025
   endDate: Mar 2025
 - company: PT. Megacom Alfapratama
-  title: Intern Social Media Specialist
+  title: Social Media Specialist Intern
   description: |-
     Took photographs and videos for social media content
     Designed graphics for social media posts
@@ -107,7 +107,7 @@ experience:
   startDate: Jan 2019
   endDate: Mar 2019
 organizations:
-- name: Pemuda Thridharma Indonesia
+- name: Indonesian Thridharma Youth
   title: Youth Administrator (since 2025)
   startDate: Jun 2015
   endDate: Present
@@ -119,7 +119,7 @@ organizations:
     Member of the Prajapati branch temple from 2021 to 2025
     Planned events and supported organizational activities
     Serving as youth administrator since 2025
-  branch: Prajapati branch
+  branch: Prajapati Branch
 actions:
 - title: GitHub Profile
   subtitle: More projects
@@ -132,11 +132,11 @@ actions:
 nameLines:
 - Jonathan
 - Lucky Yap
-location: Jakarta Timur, Indonesia
+location: East Jakarta, Indonesia
 heroSummary: Computer Science graduate working across product testing, drone systems, hardware integration, and RESTful API development with Python and FastAPI.
 education:
-- name: Universitas Bina Nusantara
-  title: Bachelor Degree of Computer Science
+- name: Bina Nusantara University
+  title: Bachelor's Degree in Computer Science
   location: West Jakarta, Indonesia
   startDate: Sep 2020
   endDate: Sep 2026
